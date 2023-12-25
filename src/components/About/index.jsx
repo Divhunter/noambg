@@ -13,7 +13,7 @@ const About = () => {
                 <h1>A propos</h1>
                 <img src={astroBook} alt='astronaute'/>
                 <span>
-                    Papa : "Petit terrien, tu-as encore la tête dans les étoiles ? Penses à ranger ta chambre, tu-veux bien ?"
+                    Papa : "Petit terrien, tu-as encore la tête dans les étoiles ? Penses à faire tes devoirs, tu-veux bien ?"
                 </span>
             </header>
             <p>
