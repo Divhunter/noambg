@@ -1,0 +1,82 @@
+.banner__sep {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 18vw;
+    background: linear-gradient(to bottom, rgb(204, 118, 0), 30%, rgb(253, 215, 89));
+    margin: 0;
+    z-index: 1000;
+}
+
+.banner__sep__stars {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    font-size: 4.5vw;
+    opacity: 0;
+    color: white;
+}
+
+.banner__box {
+    margin-top: -19.2vw;
+    width: 100vw;
+}
+
+.banner__box__title {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 47vw;
+    margin: 0;
+    background-color: black;
+}
+
+.banner__box__title__letter {
+    display: inline-block;
+    font-size: 15vw;
+    font-weight: 600;
+    letter-spacing: 2vw;
+    color: rgb(253, 215, 89);
+}
+
+.banner__box__subTitle {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: -13vw;
+    margin-bottom: 0;
+    letter-spacing: 1.5vw;
+    font-size: 5.5vw;
+    font-weight: 500;
+    color: rgb(253, 215, 89);
+    opacity: 0;
+}
+
+.banner__box__subTitle__play {
+    margin-top: 5vw;
+    font-size: 12vw;
+    cursor: pointer;
+    color: rgb(253, 215, 89);
+    transition: color .5s;
+}
+
+.banner__box__subTitle__play:hover {
+    color: rgb(240, 136, 0);
+    transition: color .5s;
+}
+
+.banner__box__subTitle__play:active {
+    color: rgb(252, 223, 162);
+}
+
+.banner__pic-box {
+    position: relative;
+    width: 100%;
+    height: 147vw;
+    margin: 0;
+    background-color: transparent;
+}

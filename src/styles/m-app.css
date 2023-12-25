@@ -1,0 +1,188 @@
+/**********************************************************************************************/
+/********************************************** app *******************************************/
+/**********************************************************************************************/
+
+header,
+footer, 
+section, 
+article {
+    overflow: hidden;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    min-height: 140vw;
+    height: auto;
+    background-color: black;
+    background-image: 
+    url("https://www.transparenttextures.com/patterns/connected.png");
+}
+
+section>article {
+    position: relative;
+    margin-top: 20vw;
+}
+
+section>header {
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    padding-bottom: 15vw;
+    margin: 0;
+    background-image: 
+    url("https://www.transparenttextures.com/patterns/connected.png"),
+    linear-gradient(to bottom, rgb(204, 118, 0), 30%, rgb(253, 215, 89));
+}
+
+section>header>h1 {
+    font-size: 10vw;
+    font-weight: 600;
+    letter-spacing: .4vw;
+    color: black;
+}
+
+section>header>img {
+    width: auto;
+    height: 35vw;
+}
+
+section>header>span {
+    display: inline-block;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+    font-weight: 500;
+    font-size: 5vw;
+    line-height: 7vw;
+    letter-spacing: .4vw;
+    font-style: italic;
+    color: black;
+}
+
+section>p, section>div{
+    position: relative;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 15vw;
+    text-align: left;
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 7vw;
+    letter-spacing: .4vw;
+    color: rgb(225, 225, 225);
+}
+
+section>div>header{
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    font-size: 7vw;
+    letter-spacing: .4vw;
+    line-height: 30vw;
+    color: rgb(253, 215, 89);
+
+}
+
+section>div>article {
+    position: relative;
+    padding-bottom: 10vw;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 5vw;
+    background-color: white;
+}
+
+section>div>article>header {
+    width: 100%;
+    height: auto;
+}
+
+section>div>article>header>div {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 10vw;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section>div>article>header>div>img {
+    width: 60vw;
+    height: auto;
+}
+
+section>div>article>header>h1 {
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    font-family: 'Open', sans-serif;
+    font-size: 6.5vw;
+    font-weight: 500;
+    line-height: 9vw;
+    letter-spacing: normal;
+    color: black;
+}
+
+section>div>article>header>h2 {
+    position: relative;
+    text-align: left;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 4.5vw;
+    font-weight: 500;
+    color: black;
+}
+
+section>div>article>header>p {
+    position: relative;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 4.5vw;
+    font-weight: 600;
+    line-height: 6vw;
+    letter-spacing: normal;
+    color: black;
+}
+
+ul, li {
+    list-style:none;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+input, textarea{
+    border: 0;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+textarea {
+    border: 0;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+
+.test {
+    color:black;
+    font-size: 5vw;
+}
