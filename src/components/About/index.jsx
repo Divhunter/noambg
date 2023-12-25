@@ -1,5 +1,5 @@
 // images
-import lion from '../../assets/icons/lion.png'
+import astroBook from '../../assets/icons/astro-book.png'
 
 // styles
 import './m-about.css'
@@ -11,22 +11,35 @@ const About = () => {
 		<section id='about' className='about'>
             <header>
                 <h1>A propos</h1>
-                <img src={lion} alt='lion'/>
+                <img src={astroBook} alt='astronaute'/>
                 <span>
-                    "Il y a des artistes surgis de nulle part qui ont la capacité de captiver l'auditeur dès la première écoute, presque par surprise. Léon fait partie de ceux-là."
-                    <br/><br/>
-                    Olivier Cachin - InterSessions
+                    Papa : "Petit terrien, tu-as encore la tête dans les étoiles ? Penses à ranger ta chambre, tu-veux bien ?"
                 </span>
             </header>
             <p>
-                Dès son plus jeune âge, à Kinshasa, Léon utilise la musique pour chasser le blues. Et la soul américaine est son genre de prédilection, via la collection de disques de son père qui écoute religieusement tous les dimanches Marvin Gaye, Barry White, Bobby Womack, Al Green, bref le meilleur de la soul seventies. Mais aussi le jazz avec Nat King Cole, Maceo Parker ou Louis Amstrong. Une éducation musicale de choix.
+                Salut les explorateurs intrépides !
                 <br/><br/>
-                Quand la famille de Léon débarque en France en 1989, elle atterrit à Toulouse. Léon multiplie les petits groupes, les expériences, les rencontres. Il cherche sa voie et plus encore sa VOIX qu'il trouve entre Barry White et James Brown. 
+                Je m'appelle Noam, un petit astronaute avec une imagination aussi grande que l'univers tout entier. 
                 <br/><br/>
-                Léon est un soulman moderne avec ses héros et ses modèles.
-                Mais surtout, <strong>un LION de scène</strong>. 
+                Depuis que je suis tout petit, je suis fasciné par les étoiles qui brillent dans le ciel comme des diamants scintillants.
                 <br/><br/>
-                A bon attendeur...
+                Pendant que d'autres enfants peuvent s'amuser avec des jouets ordinaires, moi, je me lance dans des aventures intergalactiques dans ma tête. 
+                <br/><br/>
+                J'adore plonger dans des livres remplis de mystères célestes et rêver d'explorer des planètes lointaines. 
+                <br/><br/>
+                Quand la nuit tombe, je m'installe sous les étoiles avec mes télescopes en carton pour découvrir les secrets du cosmos.
+                <br/><br/>
+                Mais ce n'est pas tout ! J'ai un autre amour dans ma vie : les jeux vidéo. 
+                <br/><br/>
+                Je m'évade dans des mondes virtuels où je deviens le héros de mon histoire. 
+                <br/><br/>
+                Mon rêve ultime ? Devenir un grand YouTuber et partager avec vous mes aventures interstellaires. 
+                <br/><br/>
+                Imaginez-vous, vous et moi, explorant ensemble des mondes épiques et découvrant les mystères de l'espace !
+                <br/><br/>
+                Alors, préparez-vous à embarquer avec moi pour des voyages interplanétaires, des découvertes astronomiques et, bien sûr, des aventures vidéoludiques palpitantes. 
+                <br/><br/>
+                Suivez-moi dans cette odyssée, car l'espace n'a jamais été aussi cool !
             </p>
         </section>
 	) 

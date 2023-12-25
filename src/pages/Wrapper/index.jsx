@@ -9,7 +9,7 @@ import Background from '../../components/Background'
 import Header from '../../components/Header'
 import Banner from '../../components/Banner'
 import About from '../../components/About'
-import Services from '../../components/Services'
+import Embarquement from '../../components/Embarquement'
 import Tracks from '../../components/Tracks'
 import Events from '../../components/Events'
 import Partners from '../../components/Partners'
@@ -78,7 +78,7 @@ const Wrapper = () => {
 			<Header />
             <Banner />
 			<About />
-			<Services />
+			<Embarquement />
 			<Tracks />
 			<Events />
 			<Partners />

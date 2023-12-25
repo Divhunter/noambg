@@ -4,7 +4,7 @@
     justify-content: center;
     width: 100%;
     height: 18vw;
-    background: linear-gradient(to bottom, rgb(204, 118, 0), 30%, rgb(253, 215, 89));
+    background: linear-gradient(to bottom, rgb(20,53,122), rgb(206, 240, 250));
     margin: 0;
     z-index: 1000;
 }
@@ -39,7 +39,7 @@
     font-size: 15vw;
     font-weight: 600;
     letter-spacing: 2vw;
-    color: rgb(253, 215, 89);
+    color: rgb(206, 240, 250);
 }
 
 .banner__box__subTitle {
@@ -52,25 +52,26 @@
     letter-spacing: 1.5vw;
     font-size: 5.5vw;
     font-weight: 500;
-    color: rgb(253, 215, 89);
+    color: rgb(145, 215, 241);
     opacity: 0;
 }
 
 .banner__box__subTitle__play {
     margin-top: 5vw;
-    font-size: 12vw;
+    width: 15vw;
+    height: auto;
     cursor: pointer;
-    color: rgb(253, 215, 89);
-    transition: color .5s;
+    transition: .3s;
 }
 
 .banner__box__subTitle__play:hover {
-    color: rgb(240, 136, 0);
-    transition: color .5s;
+    margin-top: 3.3vw;
+    width: 20vw;
+    transition: .3s;
 }
 
 .banner__box__subTitle__play:active {
-    color: rgb(252, 223, 162);
+    color: rgb(198, 199, 255);
 }
 
 .banner__pic-box {

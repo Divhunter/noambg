@@ -2,10 +2,10 @@
 import { useState, useEffect } from 'react'
 
 // images
-import leon0 from '../../assets/pictures/leon0-m.jpg'
-import leon1 from '../../assets/pictures/leon1-m.jpg'
-import leon2 from '../../assets/pictures/leon2-m.jpg'
-import leon3 from '../../assets/pictures/leon3-m.jpg'
+import astro0 from '../../assets/pictures/astro0-m.jpg'
+import astro1 from '../../assets/pictures/astro1-m.jpg'
+import astro2 from '../../assets/pictures/astro2-m.jpg'
+import astro3 from '../../assets/pictures/astro3-m.jpg'
 
 //styles
 import './m-background.css'
@@ -28,16 +28,16 @@ const Background = () => {
 
 	const slideArray = [
 		{	
-			"img": `${leon0}`
+			"img": `${astro0}`
 		},
 		{	
-			"img": `${leon1}`
+			"img": `${astro1}`
 		},
 		{
-			"img": `${leon2}`
+			"img": `${astro2}`
 		},
 		{
-			"img": `${leon3}`
+			"img": `${astro3}`
 		}
 	]
 
@@ -49,7 +49,7 @@ const Background = () => {
 					<div key={index}>
 						<img className={index === currentState ? 'background__pic background__pic--in' : 'background__pic background__pic--out'}
 						src={items.img} 
-						alt='slide-leon-pictures' />
+						alt='slide-astro-pictures' />
 					</div>
 				))}
 			</div>

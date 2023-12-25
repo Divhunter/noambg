@@ -21,13 +21,13 @@
 
 .header__navbar--closed {
 	height: 30.8vw;
-	background-color: rgb(129, 120, 64);
+	background-color: rgb(20,53,122);
 	transition: height .3s, background-color .8s;
 }
 
 .header__navbar--open {
 	height: 200vw;
-	background-color:  rgb(107, 99, 51);
+	background-color:  rgb(56, 74, 114);
 	transition: height .4s, background-color 1.5s;
 }
 
@@ -45,14 +45,14 @@
     top: 10vw;
 	right: 8.7vw;
 	font-size: 6vw;
-	color: rgb(240, 184, 0);
+	color: rgb(206, 240, 250);
 	transition: color .4s;
 	cursor: pointer;
 	z-index: 500;
 }
 
 .header__navbar__button-x:hover {
-	color: rgb(255, 227, 167);
+	color: rgb(212, 42, 42);
 	transition: color .4s;
 }
 
@@ -62,7 +62,7 @@
     top: 10.8vw;
 	right: 8.4vw;
 	font-size: 5vw;
-	color: rgb(240, 184, 0);
+	color: rgb(206, 240, 250);
 	cursor: pointer;
 	z-index: 500;
 }
@@ -81,14 +81,14 @@
     top: 30vw;
     padding-top: 4vw;
     padding-bottom: 2vw;
-    margin-top: 0;
+    margin-top: 1vw;
     margin-bottom: 0;
     padding-left: 8vw;
     padding-right: 8vw;
     font-size: 4.8vw;
     font-style: italic;
-    color: rgb(255, 227, 167);
-    background: linear-gradient(to top, rgb(117, 108, 57), 40%, transparent);
+    color: rgb(227, 228, 255);
+	background: linear-gradient(to top, rgb(0, 0, 0), 40%, transparent);
 }
 
 .header__navbar__pic {
@@ -96,7 +96,7 @@
 	top: 65vw;
 	width: 100%;
 	height: auto;
-	opacity: .5;
+	filter: brightness(70%);
 	z-index: -1;
 }
 
@@ -151,24 +151,23 @@ menu {
 .header__navbar__menu__link {
 	position: relative;
 	line-height: 10vw;
-	border-bottom: 1px solid rgb(165, 154, 91);
+	border-bottom: 1px solid rgb(207, 244, 255);
     padding-bottom: .5vw;
 	cursor: pointer;
 	letter-spacing: .3vw;
 	font-size: 5.5vw;
 	font-weight: 500;
-	color: rgb(231, 193, 66);
-	text-shadow: 1px 1px rgb(51, 40, 4);
+	color: rgb(207, 244, 255);
 	transition: all .3s;
 }
 
 .header__navbar__menu__link:hover {
-	border-bottom: 1px solid rgb(231, 188, 46);
+	border-bottom: 1px solid rgb(226, 248, 255);
 	text-decoration: none;
 	padding-left: 5vw;
 	font-size: 5.9vw;
 	font-weight: 500;
-	color: rgb(240, 184, 0);
+	color: rgb(226, 248, 255);
 	transition: all .2s;
 }
 
@@ -187,56 +186,27 @@ menu {
 	
 	.header__navbar--open {
 		height: 200vw;
-		background-color:  rgb(107, 99, 51);
-		transition: height .4s, background-color 1.5s;
 	}
 	
 	.header__navbar__logo {
 		top: 30px;
 		left: 30px;
 		width: 40px;
-		height: auto;
 	}
 	
 	.header__navbar__button-x {
-		position: absolute;
-		float: right;
 		top: 10vw;
 		right: 8.7vw;
 		font-size: 6vw;
-		color: rgb(240, 184, 0);
-		transition: color .4s;
-		cursor: pointer;
-		z-index: 500;
-	}
-	
-	.header__navbar__button-x:hover {
-		color: rgb(255, 227, 167);
-		transition: color .4s;
 	}
 	
 	.header__navbar__button-bars {
-		position: absolute;
-		float: right;
 		top: 10.8vw;
 		right: 8.4vw;
 		font-size: 5vw;
-		color: rgb(240, 184, 0);
-		cursor: pointer;
-		z-index: 500;
-	}
-	
-	.header__navbar__button--closed {
-		display: none;
-	}
-	
-	.header__navbar__button--open {
-		display: block;
 	}
 	
 	.header__navbar__testimonial {
-		position: relative;
-		width: auto;
 		top: 30vw;
 		padding-top: 4vw;
 		padding-bottom: 2vw;
@@ -245,89 +215,42 @@ menu {
 		padding-left: 8vw;
 		padding-right: 8vw;
 		font-size: 4.8vw;
-		font-style: italic;
-		color: rgb(255, 227, 167);
-		background: linear-gradient(to top, rgb(117, 108, 57), 40%, transparent);
 	}
 	
 	.header__navbar__pic {
-		position: absolute;
 		top: 65vw;
-		width: 100%;
-		height: auto;
-		opacity: .5;
-		z-index: -1;
-	}
-	
-	.header__navbar__pic-visible {
-		display: block;
-	}
-	
-	.header__navbar__pic-hidden {
-		display: none;
-	}
-	
-	.header__navbar__testimonial--visible {
-		display: inline-block;
-	}
-	
-	.header__navbar__testimonial--hidden {
-		display: none;
 	}
 	
 	p .signature {
-		float: right;
 		margin-right: 5vw;
 		line-height: 12vw;
 	}
 	
 	menu {
-		position: relative;
-		text-align: left;
-		display: flex;
-		flex-direction: column;
 		top: 60vw;
 		width: 87vw;
-		overflow: hidden;
 		margin: 0;
 	}
 	
 	.header__navbar__menu-open {
 		height: 90vw;
-		transition-delay: .2s;
-		transition-duration: .25s;
 	}
 	
 	.header__navbar__menu-closed {
 		height: 0;
-		transition-duration: .1s;
-	}
-	
-	.header__navbar__menu__link, a:link, a:visited, a:hover {
-		text-decoration: none !important;
 	}
 	
 	.header__navbar__menu__link {
-		position: relative;
 		line-height: 10vw;
-		border-bottom: 1px solid rgb(165, 154, 91);
 		padding-bottom: .5vw;
-		cursor: pointer;
 		letter-spacing: .3vw;
 		font-size: 5.5vw;
 		font-weight: 500;
-		color: rgb(231, 193, 66);
-		text-shadow: 1px 1px rgb(51, 40, 4);
-		transition: all .3s;
 	}
 	
 	.header__navbar__menu__link:hover {
-		border-bottom: 1px solid rgb(231, 188, 46);
-		text-decoration: none;
 		padding-left: 5vw;
 		font-size: 5.9vw;
 		font-weight: 500;
-		color: rgb(240, 184, 0);
-		transition: all .2s;
 	}
 }

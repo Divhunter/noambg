@@ -1,10 +1,13 @@
 // Hooks and dependencies
 import { useEffect, useRef } from 'react'
-import { faPlayCircle, faStar } from '@fortawesome/free-solid-svg-icons'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
+
+// images
+import play from '../../assets/icons/play.png'
 
 // styles
 import './m-banner.css'
@@ -65,18 +68,19 @@ const Banner = () => {
 			</div>
 			<div className='banner__box'>
 				<h1 className='banner__box__title' ref={titleRef}>
-					<span className='banner__box__title__letter'>L</span>
-					<span className='banner__box__title__letter'>E</span>
-					<span className='banner__box__title__letter'>O</span>
 					<span className='banner__box__title__letter'>N</span>
+					<span className='banner__box__title__letter'>O</span>
+					<span className='banner__box__title__letter'>A</span>
+					<span className='banner__box__title__letter'>M</span>
 				</h1>
 				<h2 className='banner__box__subTitle'>
-					un pur régal
+					dans les étoiles
 					<br/>
-					<FontAwesomeIcon 
+					<img 
+					src={play}
 					onClick={redirection}
 					className='banner__box__subTitle__play'
-					icon={faPlayCircle} 
+					alt='bouton play'
 					/>
 				</h2>
 			</div>
