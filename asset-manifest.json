@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/noambg/static/css/main.e775392c.css",
+    "main.js": "/noambg/static/js/main.0eaf8c41.js",
+    "static/media/footerVDO.mp4": "/noambg/static/media/footerVDO.bb60ebac728080541f3f.mp4",
+    "static/media/giveItUp.mp3": "/noambg/static/media/giveItUp.ffed44ed1122a14ccfc5.mp3",
+    "static/media/sexual.mp3": "/noambg/static/media/sexual.50ad5d19349debf6680a.mp3",
+    "static/media/selfie.mp3": "/noambg/static/media/selfie.e454c82901138d5272a8.mp3",
+    "static/media/playlist2.mp4": "/noambg/static/media/playlist2.b12362c6d2ac6b5e2be3.mp4",
+    "static/media/promise.mp3": "/noambg/static/media/promise.ceec1ad5c108d7bf2b0c.mp3",
+    "static/media/wont.mp3": "/noambg/static/media/wont.2c7288929a2d95947f58.mp3",
+    "static/media/astro-fuz.png": "/noambg/static/media/astro-fuz.265e4731342d5eb9c537.png",
+    "static/media/astro4-m.jpg": "/noambg/static/media/astro4-m.8905d11463e5fec63219.jpg",
+    "static/media/astro-book.png": "/noambg/static/media/astro-book.4476e6efea1986224873.png",
+    "static/media/logo.png": "/noambg/static/media/logo.7e557fa89aa005ae9a55.png",
+    "static/media/play.png": "/noambg/static/media/play.a057e1a073bc79b0eb73.png",
+    "static/media/astro2-m.jpg": "/noambg/static/media/astro2-m.a78533c68a8c04fc0e80.jpg",
+    "static/media/astro3-m.jpg": "/noambg/static/media/astro3-m.31d5812d4bb262fa5132.jpg",
+    "static/media/astro1-m.jpg": "/noambg/static/media/astro1-m.68ad531d089c0e694455.jpg",
+    "static/media/sexual.jpg": "/noambg/static/media/sexual.20100faa1328f699f9e4.jpg",
+    "static/media/astro0-m.jpg": "/noambg/static/media/astro0-m.549b7a1896b6a2a7d812.jpg",
+    "static/media/vinyle.png": "/noambg/static/media/vinyle.7c484c514e30840b7534.png",
+    "static/media/wont.jpg": "/noambg/static/media/wont.21245bedb0272a8acdc6.jpg",
+    "static/media/chocolate.jpg": "/noambg/static/media/chocolate.7bcf8538677eaafa29c2.jpg",
+    "static/media/giveItUp.jpg": "/noambg/static/media/giveItUp.ba8516c61b9c4ea20d39.jpg",
+    "static/media/promise.jpg": "/noambg/static/media/promise.dfe4a2468592718e167c.jpg",
+    "static/media/selfie.jpg": "/noambg/static/media/selfie.77b5dbf9dc5815d05eb3.jpg",
+    "static/media/contrat.png": "/noambg/static/media/contrat.f3e4654f8848c9be481f.png",
+    "static/media/phone.png": "/noambg/static/media/phone.7aa1e16e5c2d35d485f1.png",
+    "index.html": "/noambg/index.html",
+    "main.e775392c.css.map": "/noambg/static/css/main.e775392c.css.map",
+    "main.0eaf8c41.js.map": "/noambg/static/js/main.0eaf8c41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e775392c.css",
+    "static/js/main.0eaf8c41.js"
+  ]
+}
