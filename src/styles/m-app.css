@@ -1,0 +1,307 @@
+/**********************************************************************************************/
+/********************************************** app *******************************************/
+/**********************************************************************************************/
+
+header,
+footer, 
+section, 
+article {
+    overflow: hidden;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    min-height: 140vw;
+    height: auto;
+    background-color: rgb(7, 24, 59);
+}
+
+section>article {
+    position: relative;
+    margin-top: 20vw;
+}
+
+section>header {
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    padding-bottom: 15vw;
+    margin: 0;
+    background-image: 
+    url("https://www.transparenttextures.com/patterns/cubes.png"),
+    linear-gradient(to bottom, rgb(20,53,122), 30%, rgb(206, 240, 250));
+}
+
+section>header>h1 {
+    font-size: 10vw;
+    font-weight: 600;
+    letter-spacing: .4vw;
+    color: rgb(186, 209, 255);
+}
+
+section>header>img {
+    width: auto;
+    height: 50vw;
+}
+
+section>header>span {
+    display: inline-block;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 8vw;
+    letter-spacing: .4vw;
+    font-style: italic;
+    color: rgb(7, 24, 59);
+}
+
+section>p, section>div{
+    position: relative;
+    padding-top: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 15vw;
+    text-align: left;
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 8vw;
+    letter-spacing: .4vw;
+    color: white;
+}
+
+section>div>header{
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    font-size: 7vw;
+    letter-spacing: .4vw;
+    line-height: 30vw;
+    color: rgb(89, 92, 253);
+
+}
+
+section>div>article {
+    position: relative;
+    padding-bottom: 10vw;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 5vw;
+    background-color: white;
+}
+
+section>div>article>header {
+    width: 100%;
+    height: auto;
+}
+
+section>div>article>header>div {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 10vw;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section>div>article>header>div>img {
+    width: 60vw;
+    height: auto;
+}
+
+section>div>article>header>h1 {
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    font-family: 'Open', sans-serif;
+    font-size: 6.5vw;
+    font-weight: 500;
+    line-height: 9vw;
+    letter-spacing: normal;
+    color: black;
+}
+
+section>div>article>header>h2 {
+    position: relative;
+    text-align: left;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 4.5vw;
+    font-weight: 500;
+    color: black;
+}
+
+.subHeader {
+    position: relative;
+    margin: 15vw 5vw 0 5vw;
+    text-align: center;
+    font-size: 5vw;
+    letter-spacing: .4vw;
+    line-height: 10vw;
+    font-weight: bold;
+    color: white;
+}
+
+section>div>article>header>p {
+    text-align: left;
+    position: relative;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 4.5vw;
+    font-weight: 600;
+    line-height: 6vw;
+    letter-spacing: normal;
+    color: black;
+}
+
+.interlude {
+    text-align: center;
+    font-size: 5vw;
+    line-height: 8vw;
+    margin: 10vw;
+}
+
+.quiz-container {
+    padding: 5vw 5vw 15vw 5vw;
+    margin: 10vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(237, 238, 241), white);
+}
+
+.quiz-header{
+    text-align: center;
+    font-size: 6vw;
+}
+
+.quiz {
+    font-family: 'Open', sans-serif;
+    font-size: 4.5vw;
+    line-height: 8vw;
+    background-color: white;
+    color: rgb(7, 24, 59);
+    z-index: 1000;
+}
+
+.quiz-button,
+.quiz-buttonTry {
+    margin: 13vw auto auto auto;
+    width: 30vw;
+    text-align: center;
+    padding: 3vw;
+    font-size: 4.5vw;
+    font-weight: 600;
+    letter-spacing: .2vw;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    filter: brightness(100%);
+    transition: filter.4s;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.quiz-button {
+    background: linear-gradient(rgb(30, 128, 17), rgb(47, 196, 28));
+}
+
+.quiz-buttonTry {
+    background: linear-gradient(rgb(18, 56, 131), rgb(74, 134, 255));
+}
+
+.quiz-buttonTry:hover,
+.quiz-button:hover {
+    filter: brightness(120%);
+    transition: color .5s, filter .4s;
+}
+
+.quiz-buttonTry:active,
+.quiz-button:active {
+    filter: brightness(180%);
+}
+
+@counter-style thumbs1 {
+    system: cyclic;
+    symbols: "🚀";
+    suffix: " ";
+}
+
+@counter-style thumbs2 {
+    system: cyclic;
+    symbols: "🧪";
+    suffix: " ";
+}
+
+@counter-style thumbs3 {
+    system: cyclic;
+    symbols: "👴";
+    suffix: " ";
+}
+
+ul {
+    margin: 10vw auto auto auto;
+}
+
+li {
+    margin-bottom: 5vw;
+    color: rgb(22, 68, 161);
+    transition: color .4s;
+    transition:  margin-left .4s, color .4s;
+    cursor: pointer;
+}
+
+.quiz-embarquement {
+    list-style-type: thumbs1;
+}
+
+.quiz-dame-rouge {
+    list-style-type: thumbs2;
+}
+
+.quiz-programme-jupiter {
+    list-style-type: thumbs3;
+}
+
+li:hover {
+    color: rgb(111, 50, 209);
+    margin-left: 5vw;
+    transition:  margin-left .4s, color .4s;
+}
+  
+input, textarea{
+    border: 0;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+textarea {
+    border: 0;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
