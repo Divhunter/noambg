@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const QuizProgrammeJupiter = () => {
+const QuizJupiter_1 = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0)
     const [score, setScore] = useState(0)
     const [quizFinished, setQuizFinished] = useState(false)
@@ -109,4 +109,4 @@ const QuizProgrammeJupiter = () => {
     )
 }
 
-export default QuizProgrammeJupiter
+export default QuizJupiter_1
